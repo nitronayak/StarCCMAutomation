@@ -3,5 +3,31 @@ This macro was designed to hep automate your STAR-CCM post-processes. This repo 
 
 Files included:
 1. ExportScenesAndPlots.java: This is the inital macro to be used in STAR-CCM. This downloads the scenes and plots to an external folder.
-2. NitroMacro.py: This is to be ran after the scenes and plots are exported. This generates the presentation
+2. NitroMacro.py: This is to be ran after the scenes and plots are exported. This generates the presentation.
 3. Demo_Presentation.pptx: A demo presentation, shows what the current presentation generated should look like.
+
+STEPS TO RUN:
+1. Go to your active simulation file in STAR-CCM. Hit File --> Macro --> Play Macro --> Select ExportScenesAndPlots.java
+2. Wait for the macro to finish. It will generate the folder "(Sim Name)_results"
+3. Once macro is completed, run the python file/ executable depending on preference
+4. The final presentation should be generated and exported into the same initial folder, "(Sim Name)_results"
+
+PATCH NOTES:
+
+V 1.0 -->
+- Created base program
+- Generates plots and scenes into ppt
+  
+V 1.1 --> 
+- Upgraded base program.
+- removed scaling and placement issues.
+- Added title page with simulation name and company name.
+- All images are now auto labelled with image names.
+- Erased blank pages and removed placeholders obstructing images.
+- Overall stability upgrades from V 1.0.
+
+V 2.0 --> (UNRELEASED)
+- Improvements to file management and better aesthetics when it comes to folders. Should help in organization.
+- Should export report data into csv file.
+- Should try and import the csv into the presentation.
+- [Still in progress]
