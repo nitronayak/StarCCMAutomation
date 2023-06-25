@@ -11,8 +11,9 @@ Files included:
 STEPS TO RUN:
 1. Go to your active simulation file in STAR-CCM. Hit File --> Macro --> Play Macro --> Select ExportScenesAndPlots.java
 2. Wait for the macro to finish. It will generate the folder "(Sim Name)_results"
-3. Once macro is completed, run the python file/ executable depending on preference
-4. The final presentation should be generated and exported into the same initial folder, "(Sim Name)_results"
+3. Once macro is completed, run the python file/ executable depending on preference.
+4. This will open a file picker. Pick your simulation results FOLDER.
+5. The final presentation should be generated and exported into the same initial folder, "(Sim Name)_results"
 
 PATCH NOTES:
 
