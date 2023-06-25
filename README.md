@@ -1,4 +1,4 @@
-# StarCCM_Presentation
+# StarCCM Automation
 This macro was designed to hep automate your STAR-CCM post-processes. This repo contains a macro which exports all scenes and plots to a separate folder. Once completed, run the supplied python file to complete post processing by generating a presentation with all scenes and plots labelled. Deeply useful for FSAE, Formula Student and other projects which require documentation of multiple simulations.
 NOTE: You should be able to customize this project using the .py file.
 
