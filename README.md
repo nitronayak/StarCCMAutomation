@@ -29,8 +29,4 @@ V 1.1 -->
 - Erased blank pages and removed placeholders obstructing images.
 - Overall stability upgrades from V 1.0.
 
-V 2.0 --> (UNRELEASED)
-- Improvements to file management and better aesthetics when it comes to folders. Should help in organization.
-- Should export report data into csv file.
-- Should try and import the csv into the presentation.
-- [Still in progress]
+
